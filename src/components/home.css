@@ -1,0 +1,152 @@
+.container {
+    /* Desktop - 1 */
+
+
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+    background: #F8F8F8;
+}
+
+.articles {
+    width: 1440px;
+    height: 20%;
+}
+
+.card {
+    /* Article 1 */
+
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 24px;
+    gap: 24px;
+
+    width: 384px;
+    height: 364px;
+
+    /* P/Davy's Grey/100 */
+
+    background: #FFFFFF;
+    /* P/Davy's Grey/400 */
+
+    border: 1px solid #E0E0E0;
+    border-radius: 16px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.con1 p {
+    /* All articles */
+
+
+    position: absolute;
+    width: 118px;
+    height: 30px;
+    left: 120px;
+    top: 133px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #252525;
+}
+
+.searchBar {
+    position: absolute;
+    width: 384px;
+    height: 56px;
+    left: 936px;
+    top: 120px;
+}
+
+.ser {
+    /* Rectangle 2 */
+
+
+    box-sizing: border-box;
+
+    width: 384px;
+    height: 56px;
+    left: 936px;
+    top: 120px;
+
+    /* P/Davy's Grey/100 */
+
+    background: #FFFFFF;
+    /* P/Davy's Grey/400 */
+
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+}
+
+.ser input[type=text] {
+
+    /* Search articles */
+
+
+    position: absolute;
+    width: 97px;
+    height: 18px;
+    left: 960px;
+    top: 139px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+
+    color: #898989;
+}
+
+.searchBar svg {
+    /* stroke icon */
+
+
+    width: 24px;
+    height: 24px;
+    left: 1275px;
+    top: 136px;
+}
+
+.Articles {
+    /* Column 1 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 1200px;
+    height: 364px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: absolute;
+}
