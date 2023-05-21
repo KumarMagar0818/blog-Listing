@@ -1,0 +1,105 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 364px;
+}
+
+.my-4 {
+    background-color: red;
+}
+
+.my-3 {
+    /* Article 1 */
+
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 24px;
+    gap: 24px;
+
+    width: 384px;
+    height: 364px;
+
+    /* P/Davy's Grey/100 */
+
+    background: #FFFFFF;
+    /* P/Davy's Grey/400 */
+
+    border: 1px solid #E0E0E0;
+    border-radius: 16px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.my-3 img {
+    box-sizing: border-box;
+
+    width: 384px;
+    height: 172px;
+    border: 1px solid #E0E0E0;
+    border-radius: 16px 16px 0px 0px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.card-title {
+    width: 336px;
+    height: 56px;
+    text-align: start;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 140% */
+
+
+    color: #252525;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.card-text {
+    width: 336px;
+    height: 72px;
+    text-align: start;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+
+    color: #3F3F3F;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
